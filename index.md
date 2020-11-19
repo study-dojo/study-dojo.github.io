@@ -3,6 +3,7 @@
 * [Overview](#overview)
 * [Community Feedback](#community-feedback)
 * [Milestone 1](#completed-issues-for-milestone-1)
+* [Milestone 1 Screenshots](# Milestone 1 Screenshots)
 * [Milestone 2](#issues-for-milestone-2)
 
 ## Overview
@@ -10,6 +11,8 @@ Study Dojo is a website that enables students to help learn from and teach their
 
 ## Completed Issues for Milestone 1
 See the [project board](https://github.com/study-dojo/study-dojo/projects/1) for a list of issues completed for milestone 1.
+
+## Milestone 1 Screenshots
 
 ## Issues for Milestone 2
 See the [project board](https://github.com/study-dojo/study-dojo/projects/2) for a list of issues expected to be addressed for milestone 2.
