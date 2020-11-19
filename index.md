@@ -13,8 +13,15 @@ Study Dojo is a website that enables students to help learn from and teach their
 See the [project board](https://github.com/study-dojo/study-dojo/projects/1) for a list of issues completed for milestone 1.
 
 ## Milestone 1 Screenshots
-###Landing Page
-###Login Page
+### Landing Page
+
+### Login Page
+
+### Calendar Page
+
+### List Page
+
+### Add Page
 
 ## Issues for Milestone 2
 See the [project board](https://github.com/study-dojo/study-dojo/projects/2) for a list of issues expected to be addressed for milestone 2.
