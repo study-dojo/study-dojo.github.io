@@ -3,7 +3,7 @@
 * [Overview](#overview)
 * [Community Feedback](#community-feedback)
 * [Milestone 1](#completed-issues-for-milestone-1)
-* [Milestone 1 Screenshots](# Milestone 1 Screenshots)
+* [Milestone 1 Screenshots](#Milestone-1-Screenshots)
 * [Milestone 2](#issues-for-milestone-2)
 
 ## Overview
