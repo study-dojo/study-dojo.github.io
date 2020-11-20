@@ -75,10 +75,10 @@ We would like to hear from you! If you liked or disliked your experience while u
 ## Development History
 
 ### Completed Issues for Milestone 1
-See the [project board](https://github.com/study-dojo/study-dojo/projects/1) for a list of issues completed for milestone 1.
+See the [project board "M1"](https://github.com/study-dojo/study-dojo/projects/1) for a list of issues completed for milestone 1.
 
 ### Issues for Milestone 2
-See the [project board](https://github.com/study-dojo/study-dojo/projects/2) for a list of issues expected to be addressed for milestone 2.
+See the [project board "M2"](https://github.com/study-dojo/study-dojo/projects/2) for a list of issues expected to be addressed for milestone 2.
 
 ## Contact Us
 You can email the creators of Study Dojo at:  
