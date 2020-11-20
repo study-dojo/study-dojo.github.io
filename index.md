@@ -14,14 +14,40 @@ See the [project board](https://github.com/study-dojo/study-dojo/projects/1) for
 
 ## Milestone 1 Screenshots
 ### Landing Page
+When you first bring up Study Dojo, you'll see a landing page that provides a brief introduction to the capabililties of Study Dojo:
+<img src="doc/landing.png">
 
-### Login Page
+### Sign in Page
+Click the green "Sign In" button to bring up a page for the user to sign into their account:
+<img src="doc/sign-in.png">
 
-### Calendar Page
+### Sign up Page
+If the user doesn't have an account, they can click on the blue "here" at the bottom to bring up the Sign Up Page to register their account:
+<img src="doc/sign-up.png">
+
+### User Home Page
+After signing in, the system will bring the user to their home page. The User Home Page is similar to the Landing Page, but their NavBar will be updated to allow the user to access several pages:
+<img src="doc/home.png">
+
+### My Dojo Page
+Clicking on "My Dojo" will bring the user to a page to see the classes they are regsitered under as "Dojo" and their status, which is either "grasshopper" or "sensei":
+<img src="doc/my-dojo.png">
+
+### Add Session Page
+Clicking on "Add Session" will bring the user to a page where they can create a study session. The user can fill out the form to create a new study session:
+<img src="doc/add-study-session.png">
 
 ### List Page
+Clicking on "Sesson List" will bring the user to a page with all the study sessions they are currently registered for:
+<img src="doc/list-study-session.png">
 
-### Add Page
+### Calendar Page
+Clicking on "Calender" will bring the user to a page with a calendar that is currently empty, but will be updated to show all the study sessions:
+<img src="doc/calendar.png">
+
+### Study Dojo
+You can click [here](http://206.189.215.47/#/) for a running deployment of Study Dojo.
+
 
 ## Issues for Milestone 2
 See the [project board](https://github.com/study-dojo/study-dojo/projects/2) for a list of issues expected to be addressed for milestone 2.
