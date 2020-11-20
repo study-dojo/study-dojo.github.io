@@ -3,7 +3,6 @@
 * [Overview](#overview)
 * [Community Feedback](#community-feedback)
 * [Milestone 1](#completed-issues-for-milestone-1)
-* [Milestone 1 Screenshots](#Milestone-1-Screenshots)
 * [Milestone 2](#issues-for-milestone-2)
 
 ## Overview
@@ -13,7 +12,7 @@ Study Dojo is a website that enables students to help learn from and teach their
 ### Landing Page
 When you first bring up Study Dojo, you'll see a landing page that provides a brief introduction to the capabililties of Study Dojo:
 
-[<img src="doc/landing.png">]
+<img src="doc/landing.png">
 Click [here](http://206.189.215.47/#/) for a running deployment of the Landing Page
 
 ### Sign in Page
