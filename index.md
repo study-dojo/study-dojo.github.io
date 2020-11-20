@@ -65,7 +65,7 @@ See the [project board](https://github.com/study-dojo/study-dojo/projects/2) for
 We would like to hear from you! If you liked or disliked your experience while using Study Session Planner, feel free to fill out this [feedback form](https://forms.gle/A39VHSd7ctdDkycN7). It only takes a few minutes, and any feedback is much appreciated.
 
 ## Contact Us
-You can email the creators of Study Dojo at:
+You can email the creators of Study Dojo at:  
 darnellg@hawaii.edu  
 jryoung@hawaii.edu  
 kevinq22@hawaii.edu  
