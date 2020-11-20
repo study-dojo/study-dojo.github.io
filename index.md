@@ -66,7 +66,8 @@ We would like to hear from you! If you liked or disliked your experience while u
 
 ## Contact Us
 You can email the creators of Study Dojo at:
-darnellg@hawaii.edu
-jryoung@hawaii.edu
-kevinq22@hawaii.edu
-marj8@hawaii.edu
+darnellg@hawaii.edu  
+jryoung@hawaii.edu  
+kevinq22@hawaii.edu  
+marj8@hawaii.edu  
+  
