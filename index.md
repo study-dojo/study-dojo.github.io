@@ -1,7 +1,7 @@
 ## Table of Contents
 
 * [Overview](#overview)
-* [User Interference Walkthrough](#user-interference-walkthrough)
+* [User Interface Walkthrough](#user-interface-walkthrough)
 * [Community Feedback](#community-feedback)
 * [Development History](#development-history)
 * [Contact Us](#contact-us)
@@ -9,7 +9,7 @@
 ## Overview
 Study Dojo is a website that enables students to help learn from and teach their peers. Students can register as "sensei" for classes they willing to attempt to help and "grasshopper" for classes they are currently enrolled in. For each course they are registered as grasshopper, students can propose study sessions around a topic and a time. This notifies all grasshoppers and sensei for that course, allowing them to respond if they intend to attend the study session. 
 
-## User Interference Walkthrough
+## User Interface Walkthrough
 ### Landing Page
 When you first bring up Study Dojo, you'll see a landing page that provides a brief introduction to the capabililties of Study Dojo:
 
