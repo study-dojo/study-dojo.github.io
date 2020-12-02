@@ -93,7 +93,7 @@ $ meteor npm run start
 The first time you run the app, it will create default users and data for the app. Here is an example:
 
 ```
-C:\Users\justi\OneDrive\Documents\GitHub\github\study-dojo\app>meteor npm run start
+$ meteor npm run start
 
 > meteor-application-template-react@ start C:\Users\justi\OneDrive\Documents\GitHub\github\study-dojo\app
 > meteor --no-release-check --exclude-archs web.browser.legacy,web.cordova --settings ../config/settings.development.json
@@ -151,7 +151,159 @@ The team behind Study Dojo uses [Meteor Up](http://meteor-up.com/) to deploy our
 $ npm install --global mup
 ```
 
-In the app/.deploy directory, you'll find two files: "mup.sample.js" and "settings.sample.json". Make a copy of these two files and call them "mup.js" and "settings.json" respectively.
+In the app/.deploy directory, you'll find two files: "mup.sample.js" and "settings.sample.json". Make a copy of these two files and call them "mup.js" and "settings.json" respectively. The .deploy directory should look like this:
+
+<img scr="doc/deploy-directory-example">
+
+To change where it deploys, you need to edit the "mup.js" file. It should initially look like this:
+
+```
+module.exports = {
+  servers: {
+    one: {
+      host: 'study-dojo.me',
+      username: 'root',
+      password: 'StudyDojo'
+    }
+  },
+
+  app: {
+    name: 'meteor-application-template-react',
+    path: '../',
+
+    servers: {
+      one: {},
+    },
+
+    buildOptions: {
+      serverOnly: true,
+    },
+
+    env: {
+      ROOT_URL: 'https://study-dojo.me',
+      MONGO_URL: 'mongodb://mongodb/meteor',
+      MONGO_OPLOG_URL: 'mongodb://mongodb/local',
+    },
+
+    docker: {
+      image: 'abernix/meteord:node-12-base',
+    },
+
+    enableUploadProgressBar: true
+  },
+
+  proxy: {
+    domains: 'study-dojo.me',
+    ssl: {
+      letsEncryptEmail: 'johnson@hawaii.edu',
+      forceSSL: true
+    }
+  },
+
+  mongo: {
+    version: '3.4.1',
+    servers: {
+      one: {}
+    }
+  },
+};
+```
+
+There are three occurences of study-dojo.me, these need to be changed to the new IP or domain name to change where the app is deployed.
+
+
+**Note for Window users, on instances of "mup", use "mup.cmd" instead.**
+
+Deploy your app by invoking:
+
+```
+$ mup setup
+```
+
+**Note STDERR** You may get an error when trying to set up the proxy. That's okay, continue on to the next step. An example of the error may be:
+
+```
+$ mup setup
+
+Started TaskList: Setup Docker
+[study-dojo.me] - Setup Docker
+[study-dojo.me] - Setup Docker: SUCCESS
+
+Started TaskList: Setup Meteor
+[study-dojo.me] - Setup Environment
+[study-dojo.me] - Setup Environment: SUCCESS
+
+Started TaskList: Setup Mongo
+[study-dojo.me] - Setup Environment
+[study-dojo.me] - Setup Environment: SUCCESS
+[study-dojo.me] - Copying Mongo Config
+[study-dojo.me] - Copying Mongo Config: SUCCESS
+
+Started TaskList: Start Mongo
+[study-dojo.me] - Start Mongo
+[study-dojo.me] - Start Mongo: SUCCESS
+
+Started TaskList: Setup proxy
+[study-dojo.me] - Setup Environment
+[study-dojo.me] - Setup Environment: SUCCESS
+[study-dojo.me] - Pushing the Startup Script
+[study-dojo.me] - Pushing the Startup Script: SUCCESS
+[study-dojo.me] - Pushing Nginx Config Template
+[study-dojo.me] - Pushing Nginx Config Template: SUCCESS
+[study-dojo.me] - Pushing Nginx Config
+[study-dojo.me] - Pushing Nginx Config: SUCCESS
+[study-dojo.me] - Cleaning Up SSL Certificates
+[study-dojo.me] - Cleaning Up SSL Certificates: SUCCESS
+[study-dojo.me] - Configure Nginx Upstream
+[study-dojo.me] - Configure Nginx Upstream: SUCCESS
+
+Started TaskList: Start proxy
+[study-dojo.me] - Start proxy
+[study-dojo.me] x Start proxy: FAILED
+
+	      ------------------------------------STDERR------------------------------------
+	      Error response from daemon: endpoint mup-nginx-proxy not found
+	Error response from daemon: network mup-proxy not found
+	Error: No such container: mup-nginx-proxy-letsencrypt
+             :
+             :
+$
+```
+
+Second, invoke:
+
+```
+$ mup reconfig
+```
+
+You should get a similar output to the following:
+
+```
+$mup reconfig
+
+Started TaskList: Configuring App
+[study-dojo.me] - Pushing the Startup Script
+[study-dojo.me] - Pushing the Startup Script: SUCCESS
+[study-dojo.me] - Sending Environment Variables
+[study-dojo.me] - Sending Environment Variables: SUCCESS
+
+Started TaskList: Start Meteor
+[study-dojo.me] - Start Meteor
+[study-dojo.me] - Start Meteor: SUCCESS
+[study-dojo.me] - Verifying Deployment
+[study-dojo.me] - Verifying Deployment: SUCCESS
+$
+```
+
+If "mup setup" failed, then invoke "mup setup" again before invoking the next command.
+
+Lastly, invoke:
+
+```
+$ mup deploy
+```
+
+**Note.** That "mup deploy" may take a while to finish.
 
 
 ## Community Feedback
