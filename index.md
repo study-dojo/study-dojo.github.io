@@ -41,6 +41,11 @@ After signing in, the system will bring the user to their home page. The User Ho
 <img src="doc/home-page.png">
 Click [here](http://206.189.215.47/#/) for a running deployment of the Home Page
 
+### Profile Page
+Clicking on the circular avatar (top right) will bring the user to thier personal profile page where they can see update their profile information and see their current rank:
+
+<img src="doc/profile-page.png">
+Click [here](http://206.189.215.47/#/myprofile) for a running deployment of the Profile Page
 
 ### My Dojo Page
 Clicking on "My Dojo" will bring the user to a page to see the classes they are regsitered under as "Dojo" and their status, which is either "grasshopper" or "sensei":
