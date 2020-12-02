@@ -2,6 +2,7 @@
 * [Deployment](#deployment)
 * [Overview](#overview)
 * [User Interface Walkthrough](#user-interface-walkthrough)
+* [Developer Guide](#developer-guide)
 * [Community Feedback](#community-feedback)
 * [Development History](#development-history)
 * [Contact Us](#contact-us)
@@ -67,6 +68,90 @@ Clicking on "Calender" will bring the user to a page with a calendar that is cur
 
 <img src="doc/calendar.png">
 Click [here](http://206.189.215.47/#/calendar) for a running deployment of the Calendar Page
+
+
+## Developer Guide
+
+### Installation
+First - [install meteor](https://www.meteor.com/install)
+
+Second - download a copy of [study-dojo](https://github.com/study-dojo/study-dojo).
+
+Third - cd into the app/ directory of your local repo and install third party libraries with:
+
+```
+$ meteor npm install
+```
+
+### Running Locally
+To run the app locally, invoke the following code:
+
+```
+$ meteor npm run start
+```
+
+The first time you run the app, it will create default users and data for the app. Here is an example:
+
+```
+C:\Users\justi\OneDrive\Documents\GitHub\github\study-dojo\app>meteor npm run start
+
+> meteor-application-template-react@ start C:\Users\justi\OneDrive\Documents\GitHub\github\study-dojo\app
+> meteor --no-release-check --exclude-archs web.browser.legacy,web.cordova --settings ../config/settings.development.json
+
+[[[[[ C:\Users\justi\OneDrive\Documents\GitHub\github\study-dojo\app ]]]]]
+
+=> Started proxy.
+=> Started MongoDB.
+W20201201-15:21:56.100(-10)? (STDERR) Note: you are using a pure-JavaScript implementation of bcrypt.
+W20201201-15:21:56.518(-10)? (STDERR) While this implementation will work correctly, it is known to be
+W20201201-15:21:56.519(-10)? (STDERR) approximately three times slower than the native implementation.
+W20201201-15:21:56.519(-10)? (STDERR) In order to use the native implementation instead, run
+W20201201-15:21:56.519(-10)? (STDERR) 
+W20201201-15:21:56.520(-10)? (STDERR)   meteor npm install --save bcrypt
+W20201201-15:21:56.520(-10)? (STDERR) 
+W20201201-15:21:56.520(-10)? (STDERR) in the root directory of your application.
+I20201201-15:21:57.477(-10)? Creating the default user(s)
+I20201201-15:21:57.478(-10)?   Creating user admin@foo.com.
+I20201201-15:21:57.685(-10)?   Creating user john@foo.com.
+I20201201-15:21:57.852(-10)?   Creating user bob@foo.com.
+I20201201-15:21:58.024(-10)? Creating default Study Sessions.
+I20201201-15:21:58.025(-10)?   Adding: Help with HW (john@foo.com)
+I20201201-15:21:58.040(-10)?   Adding: Exam Study (john@foo.com)
+I20201201-15:21:58.043(-10)? Creating default dojo data.
+I20201201-15:21:58.044(-10)?   Adding: ICS 314 (john@foo.com)
+I20201201-15:21:58.065(-10)?   Adding: ICS 311 (john@foo.com)
+I20201201-15:21:58.067(-10)?   Adding: ICS 311 (bob@foo.com)
+I20201201-15:21:58.121(-10)? Monti APM: completed instrumenting the app
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+   Type Control-C twice to stop.
+```
+
+**Note on pure-Javascript implementation of bcrypyt.** The following message appears whenever you invoke **meteor npm run start**:
+
+```
+Note: you are using a pure-JavaScript implementation of bcrypt.
+While this implementation will work correctly, it is known to be
+approximately three times slower than the native implementation.
+In order to use the native implementation instead, run
+
+  meteor npm install --save bcrypt
+```
+
+On some operating systems (ex. Windows), installing Bcrypt is much more difficult than the message implied. Meteor only uses Bcrypt for password checking, so in practice, the performance implications are negligible until the site has very high traffic. You can safely ignore this warning during the initial stages of development.
+
+The template application should appear at [http://localhost:3000](http://localhost:3000). You can login using the credentials in [settings.development.json](https://github.com/study-dojo/study-dojo/blob/master/config/settings.development.json), or register or a new account.
+
+
+### Deploying the App
+The team behind Study Dojo uses [Meteor Up](http://meteor-up.com/) to deploy our app. Install Meteor Up by invoking:
+
+```
+$ npm install --global mup
+```
+
+In the app/.deploy directory, you'll find two files: "mup.sample.js" and "settings.sample.json". Make a copy of these two files and call them "mup.js" and "settings.json" respectively.
 
 
 ## Community Feedback
