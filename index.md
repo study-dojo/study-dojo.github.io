@@ -63,6 +63,12 @@ Clicking on "Sesson List" will bring the user to a page with all the study sessi
 Click [here](http://206.189.215.47/#/list) for a running deployment of the Session List Page
 
 
+### Study Session Notification
+If another user created a study session for the same class you're registered for, you can click the "Notification" button to get an alert asking if you want to attend the study session. Clicking "OK" will automatically add the study session to your Session List Page. Here's an example of the alert:
+
+<img src="doc/alert-message.png">
+
+
 ### Calendar Page
 Clicking on "Calender" will bring the user to a page with a calendar that is currently empty, but will be updated to show all the study sessions:
 
@@ -141,7 +147,7 @@ In order to use the native implementation instead, run
 
 On some operating systems (ex. Windows), installing Bcrypt is much more difficult than the message implied. Meteor only uses Bcrypt for password checking, so in practice, the performance implications are negligible until the site has very high traffic. You can safely ignore this warning during the initial stages of development.
 
-The template application should appear at [http://localhost:3000](http://localhost:3000). You can login using the credentials in [settings.development.json](https://github.com/study-dojo/study-dojo/blob/master/config/settings.development.json), or register or a new account.
+The app should appear at [http://localhost:3000](http://localhost:3000). You can login using the credentials in [settings.development.json](https://github.com/study-dojo/study-dojo/blob/master/config/settings.development.json), or register or a new account.
 
 
 ### Deploying the App
@@ -153,9 +159,9 @@ $ npm install --global mup
 
 In the app/.deploy directory, you'll find two files: "mup.sample.js" and "settings.sample.json". Make a copy of these two files and call them "mup.js" and "settings.json" respectively. The .deploy directory should look like this:
 
-<img scr="doc/deploy-directory-example">
+<img scr="doc/deploy-directory-example.png">
 
-To change where it deploys, you need to edit the "mup.js" file. It should initially look like this:
+To change where the app deploys, you need to edit the "mup.js" file. It should initially look like this:
 
 ```
 module.exports = {
@@ -304,6 +310,53 @@ $ mup deploy
 ```
 
 **Note.** That "mup deploy" may take a while to finish.
+
+
+### Modifying the App
+
+## ESLint
+You can verify the code follows our coding standard by invoking ESLint with the following code:
+
+```
+$ meteor npm run lint
+```
+
+## Directory Structure
+The top-level directory structure is:
+
+```
+app/			# holds the Meteor application sources
+config/			# holds configuration files, such as settings.development.json
+doc/			# holds documentation files, user guides, etc.
+```
+
+The app/ directory structure is:
+
+```
+client/		
+  main.html		# Boilerplate HTML with a "root" div to be maniuplated by React
+  main.js		# import startup files
+
+imports/
+  api/			# Define collections
+  startup/		# Define code to run on startup
+  ui/	
+    components/		# Contains page elements
+    layouts/		# Contains top-level layout
+    pages/		# Contains components for each page
+    
+node_modules/		# Filled with packages that are managed by npm
+
+public/			# Can be filled with static assets 
+
+server/		
+  main.js		# Import server-side js files
+  
+tests/			## Implementation of testcafe to test code
+```
+
+**Note on Import Conventions.**
+This system adheres to the Meteor guideline of putting all application code in the "app/imports/" directory, and using "client/main.js" and "server/main.js" to import the appropriate code.
 
 
 ## Community Feedback
