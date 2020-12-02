@@ -159,7 +159,7 @@ $ npm install --global mup
 
 In the app/.deploy directory, you'll find two files: "mup.sample.js" and "settings.sample.json". Make a copy of these two files and call them "mup.js" and "settings.json" respectively. The .deploy directory should look like this:
 
-<img scr="doc/deploy-directory-example.png">
+<img src="doc/deploy-directory-example.png">
 
 To change where the app deploys, you need to edit the "mup.js" file. It should initially look like this:
 
@@ -367,8 +367,11 @@ We would like to hear from you! If you liked or disliked your experience while u
 ### Completed Issues for Milestone 1
 See the [project board "M1"](https://github.com/study-dojo/study-dojo/projects/1) for a list of issues completed for milestone 1.
 
-### Issues for Milestone 2
-See the [project board "M2"](https://github.com/study-dojo/study-dojo/projects/2) for a list of issues expected to be addressed for milestone 2.
+### Completed Issues for Milestone 2
+See the [project board "M2"](https://github.com/study-dojo/study-dojo/projects/2) for a list of issues completed for milestone 2.
+
+### Issues for Milestone 3
+See the [project board "M3"](https://github.com/study-dojo/study-dojo/projects/4) for a list of issues expected to be addressed for milestone 3.
 
 ## Contact Us
 You can email the creators of Study Dojo at:  
