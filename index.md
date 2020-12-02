@@ -13,7 +13,7 @@ Study Dojo is a website that enables students to help learn from and teach their
 ### Landing Page
 When you first bring up Study Dojo, you'll see a landing page that provides a brief introduction to the capabililties of Study Dojo:
 
-<img src="doc/landing.png">
+<img src="doc/landing-page.png">
 Click [here](http://206.189.215.47/#/) for a running deployment of the Landing Page
 
 
@@ -34,7 +34,7 @@ Click [here](http://206.189.215.47/#/signup) for a running deployment of the Sig
 ### User Home Page
 After signing in, the system will bring the user to their home page. The User Home Page is similar to the Landing Page, but their NavBar will be updated to allow the user to access several pages:
 
-<img src="doc/home.png">
+<img src="doc/home-page.png">
 Click [here](http://206.189.215.47/#/) for a running deploymenht of the Home Page
 
 
@@ -55,7 +55,7 @@ Click [here](http://206.189.215.47/#/add) for a running deployment of the Add Se
 ### Session List Page
 Clicking on "Sesson List" will bring the user to a page with all the study sessions they are currently registered for:
 
-<img src="doc/list-study-session.png">
+<img src="doc/session-list.png">
 Click [here](http://206.189.215.47/#/list) for a running deployment of the Session List Page
 
 
