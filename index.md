@@ -39,6 +39,9 @@ Click [here](http://206.189.215.47/#/signup) for a running deployment of the Sig
 After signing in, the system will bring the user to their home page. The User Home Page is similar to the Landing Page, but their NavBar will be updated to allow the user to access several pages:
 
 <img src="doc/home-page.png">
+
+The Admin Home page is nearly identical with additions to the NavBar for Admin level features.
+<img src="doc/adminhome.png">
 Click [here](http://206.189.215.47/#/) for a running deployment of the Home Page
 
 ### Profile Page
