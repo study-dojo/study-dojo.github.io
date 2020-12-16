@@ -35,12 +35,13 @@ If the user doesn't have an account, they can click on the blue "here" at the bo
 Click [here](http://206.189.215.47/#/signup) for a running deployment of the Sign Up Page
 
 
-### User Home Page
-After signing in, the system will bring the user to their home page. The User Home Page is similar to the Landing Page, but their NavBar will be updated to allow the user to access several pages:
+### Home Page
+After signing in, the system will bring the user to their Home Page. The User Home Page is similar to the Landing Page, but their NavBar will be updated to allow the user to access several pages:
 
 <img src="doc/home-page.png">
 
-The Admin Home page is nearly identical with additions to the NavBar for Admin level features.
+The Admin Home Page is nearly identical to the User Home Page with minor additions to the NavBar for Admin level features:
+
 <img src="doc/adminhome.png">
 Click [here](http://206.189.215.47/#/) for a running deployment of the Home Page
 
@@ -58,7 +59,7 @@ Click [here](http://206.189.215.47/#/mydojo) for a running deployment of the My 
 
 
 ### Add Session Page
-Clicking on "Add Session" will bring the user to a page where they can create a study session. The user can fill out the form to create a new study session:
+Clicking on "Add Session" will bring the user to a page where they can create a study session. The user can fill out the form to create a new study session. Users also earn 1 Study Point for creating a new study session:
 
 <img src="doc/add-study-session.png">
 Click [here](http://206.189.215.47/#/add) for a running deployment of the Add Session Page
@@ -81,7 +82,29 @@ If another user created a study session for the same class you're registered for
 Clicking on "Calender" will bring the user to a page with a calendar that is currently empty, but will be updated to show all the study sessions:
 
 <img src="doc/calendar.png">
+
+Clicking on an study session event in the calendar will display a pop-up about the study session.
+
+<img src="doc/calendar.png">
 Click [here](http://206.189.215.47/#/calendar) for a running deployment of the Calendar Page
+
+
+### Rankings Page
+aaa
+
+<img src="doc/rankings.png">
+
+
+### Report Page
+aaa
+
+<img src="doc/report.png">
+
+
+### Reported Users (Admin) Page
+aaa
+
+<img src="doc/adminreport.png">
 
 
 ## Developer Guide
