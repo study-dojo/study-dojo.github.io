@@ -83,26 +83,26 @@ Clicking on "Calender" will bring the user to a page with a calendar that is cur
 
 <img src="doc/calendar.png">
 
-Clicking on an study session event in the calendar will display a pop-up about the study session.
+Clicking on an study session event in the calendar will display a pop-up about the study session:
 
 <img src="doc/calendar.png">
 Click [here](http://206.189.215.47/#/calendar) for a running deployment of the Calendar Page
 
 
 ### Rankings Page
-aaa
+Clicking on "Rankings" will bring the user to a page to see a leaderboard ranking of Study Dojo users. Earn Study Points by creating study sessions:
 
 <img src="doc/rankings.png">
 
 
 ### Report Page
-aaa
+Clicking on "Report User" will bring the user to a page where they file a report. Reports are used to prevent abuse to the Study Points system and other users. The user can fill out the form to report others for Harassment, Cheating, Spam, Offensive Content, and other misconduct.
 
 <img src="doc/report.png">
 
 
-### Reported Users (Admin) Page
-aaa
+### Reported Users Page (Admin)
+Admin accounts have access to the Reported Users Page by clicking on "Admin". Here they can view all submitted reports from Study Dojo users:
 
 <img src="doc/adminreport.png">
 
