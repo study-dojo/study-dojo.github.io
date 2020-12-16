@@ -79,7 +79,7 @@ If another user created a study session for the same class you're registered for
 
 
 ### Calendar Page
-Clicking on "Calender" will bring the user to a page with a calendar that is currently empty, but will be updated to show all the study sessions:
+Clicking on "Calendar" will bring the user to a page with a calendar that is currently empty, but will be updated to show all the study sessions:
 
 <img src="doc/calendar.png">
 
