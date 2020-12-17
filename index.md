@@ -388,6 +388,8 @@ We would like to hear from you! If you liked or disliked your experience while u
 * "I would like to have more status choices. Overall, I think the point of the website would be good if there were more grasshoppers using it" - John
 * "I had difficulty logging in, but once I was able to, it was easy to navigate the website. The overlay looks decent" - Melvin
 * "Creating an account was difficult because there is only a text link that is not very visible. Also, you have to click the calendar icon instead of anywhere in the text box to put in a date for add session. " - Ryan
+* "The site was easy to navigate, but there were some technical issues" - Emily
+* "The home page was nice, but I think the color could be a bit different. Maybe add some dark green for school pride." - Amy
 
 ## Development History
 
