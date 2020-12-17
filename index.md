@@ -385,6 +385,9 @@ This system adheres to the Meteor guideline of putting all application code in t
 ## Community Feedback
 We would like to hear from you! If you liked or disliked your experience while using Study Session Planner, feel free to fill out this [feedback form](https://forms.gle/A39VHSd7ctdDkycN7). It only takes a few minutes, and any feedback is much appreciated.
 
+* "I would like to have more status choices. Overall, I think the point of the website would be good if there were more grasshoppers using it" - John
+* "I had difficulty logging in, but once I was able to, it was easy to navigate the website. The overlay looks decent" - Melvin
+
 ## Development History
 
 ### Completed Issues for Milestone 1
