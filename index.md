@@ -379,7 +379,7 @@ tests/			## Implementation of testcafe to test code
 ```
 
 **Note on Import Conventions.**
-This system adheres to the Meteor guideline of putting all application code in the "app/imports/" directory, and using "client/main.js" and "server/main.js" to import the appropriate code.
+This system adheres to the Meteor guideline of putting all application code in the **app/imports/** directory, and using **client/main.js** and **server/main.js** to import the appropriate code.
 
 
 ## Community Feedback
