@@ -18,21 +18,21 @@ Study Dojo is a website that enables students to help learn from and teach their
 When you first bring up Study Dojo, you'll see a landing page that provides a brief introduction to the capabililties of Study Dojo:
 
 <img src="doc/landing-page.png">
-Click [here](http://206.189.215.47/#/) for a running deployment of the Landing Page
+Click [here](https://study-dojo.me/#/) for a running deployment of the Landing Page
 
 
 ### Sign in Page
 Click the green "Sign In" button to bring up a page for the user to sign into their account:
 
 <img src="doc/sign-in.png">
-Click [here](http://206.189.215.47/#/signin) for a running deployment of the Sign In Page
+Click [here](https://study-dojo.me/#/signin) for a running deployment of the Sign In Page
 
 
 ### Sign up Page
 If the user doesn't have an account, they can click on the blue "here" at the bottom to bring up the Sign Up Page to register their account:
 
 <img src="doc/sign-up.png">
-Click [here](http://206.189.215.47/#/signup) for a running deployment of the Sign Up Page
+Click [here](https://study-dojo.me/#/signup) for a running deployment of the Sign Up Page
 
 
 ### Home Page
@@ -43,33 +43,33 @@ After signing in, the system will bring the user to their Home Page. The User Ho
 The Admin Home Page is nearly identical to the User Home Page with minor additions to the NavBar for Admin level features:
 
 <img src="doc/adminhome.png">
-Click [here](http://206.189.215.47/#/) for a running deployment of the Home Page
+Click [here](https://study-dojo.me/#/) for a running deployment of the Home Page
 
 ### Profile Page
 Clicking on the circular avatar (top right) will bring the user to thier personal profile page where they can see update their profile information and see their current rank:
 
 <img src="doc/profile-page.png">
-Click [here](http://206.189.215.47/#/myprofile) for a running deployment of the Profile Page
+Click [here](https://study-dojo.me/#/myprofile) for a running deployment of the Profile Page
 
 ### My Dojo Page
 Clicking on "My Dojo" will bring the user to a page to see the classes they are regsitered under as "Dojo" and their status, which is either "grasshopper" or "sensei":
 
 <img src="doc/my-dojo.png">
-Click [here](http://206.189.215.47/#/mydojo) for a running deployment of the My Dojo Page
+Click [here](https://study-dojo.me/#/mydojo) for a running deployment of the My Dojo Page
 
 
 ### Add Session Page
 Clicking on "Add Session" will bring the user to a page where they can create a study session. The user can fill out the form to create a new study session. Users also earn 1 Study Point for creating a new study session:
 
 <img src="doc/add-study-session.png">
-Click [here](http://206.189.215.47/#/add) for a running deployment of the Add Session Page
+Click [here](https://study-dojo.me/#/add) for a running deployment of the Add Session Page
 
 
 ### Session List Page
 Clicking on "Sesson List" will bring the user to a page with all the study sessions they are currently registered for:
 
 <img src="doc/session-list.png">
-Click [here](http://206.189.215.47/#/list) for a running deployment of the Session List Page
+Click [here](https://study-dojo.me/#/list) for a running deployment of the Session List Page
 
 
 ### Study Session Notification
@@ -86,19 +86,21 @@ Clicking on "Calendar" will bring the user to a page with a calendar that is cur
 Clicking on an study session event in the calendar will display a pop-up about the study session:
 
 <img src="doc/calendar.png">
-Click [here](http://206.189.215.47/#/calendar) for a running deployment of the Calendar Page
+Click [here](https://study-dojo.me/#/calendar) for a running deployment of the Calendar Page
 
 
 ### Rankings Page
 Clicking on "Rankings" will bring the user to a page to see a leaderboard ranking of Study Dojo users. Earn Study Points by creating study sessions:
 
 <img src="doc/rankings.png">
+Click [here](https://study-dojo.me/#/rankings) for a running deployment of the Rankings Page
 
 
 ### Report Page
 Clicking on "Report User" will bring the user to a page where they file a report. Reports are used to prevent abuse to the Study Points system and other users. The user can fill out the form to report others for Harassment, Cheating, Spam, Offensive Content, and other misconduct.
 
 <img src="doc/report.png">
+Click [here](https://study-dojo.me/#/report) for a running deployment of the Report Page
 
 
 ### Reported Users Page (Admin)
@@ -188,11 +190,11 @@ The team behind Study Dojo uses [Meteor Up](http://meteor-up.com/) to deploy our
 $ npm install --global mup
 ```
 
-In the app/.deploy directory, you'll find two files: "mup.sample.js" and "settings.sample.json". Make a copy of these two files and call them "mup.js" and "settings.json" respectively. The .deploy directory should look like this:
+In the app/.deploy directory, you'll find two files: **mup.sample.js** and **settings.sample.json**. Make a copy of these two files and call them **mup.js** and **settings.json** respectively. The .deploy directory should look like this:
 
 <img src="doc/deploy-directory-example.png">
 
-To change where the app deploys, you need to edit the "mup.js" file. It should initially look like this:
+To change where the app deploys, you need to edit the **mup.js** file. It should initially look like this:
 
 ```
 module.exports = {
@@ -324,7 +326,7 @@ Started TaskList: Start Meteor
 $
 ```
 
-If "mup setup" failed, then invoke "mup setup" again before invoking the next command.
+If **mup setup** failed, then invoke **mup setup** again before invoking the next command.
 
 Lastly, invoke:
 
@@ -332,10 +334,8 @@ Lastly, invoke:
 $ mup deploy
 ```
 
-**Note.** That "mup deploy" may take a while to finish.
+**Note.** That **mup deploy** may take a while to finish.
 
-
-### Modifying the App
 
 ## ESLint
 You can verify the code follows our coding standard by invoking ESLint with the following code:
@@ -393,8 +393,8 @@ See the [project board "M1"](https://github.com/study-dojo/study-dojo/projects/1
 ### Completed Issues for Milestone 2
 See the [project board "M2"](https://github.com/study-dojo/study-dojo/projects/2) for a list of issues completed for milestone 2.
 
-### Issues for Milestone 3
-See the [project board "M3"](https://github.com/study-dojo/study-dojo/projects/4) for a list of issues expected to be addressed for milestone 3.
+### Completed Issues for Milestone 3
+See the [project board "M3"](https://github.com/study-dojo/study-dojo/projects/4) for a list of issues completed for milestone 3.
 
 ## Contact Us
 You can email the creators of Study Dojo at:  
